@@ -18,13 +18,11 @@
 
 .left {
     background: #00d8ff;
-    float: ;
     margin-right: 15px;
 }
 
 .right {
     background: #ff7b00;
-    float: ;
     margin-left: 15px;
 }
 
@@ -36,7 +34,6 @@
 
 .image-float {
     width: 200px;
-    float: ;
     margin-right: 20px;
     border-radius: 8px;
 }

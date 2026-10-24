@@ -51,6 +51,11 @@
     left: 40%;
     top: 80%;
 }
+.p2{
+    position: absolute;
+    left: 35%;
+    top: 80%;
+}
 
 .p3{
     position: absolute;
@@ -61,5 +66,85 @@
 .p4{
     position: absolute;
     left: 24%;
+    top: 80%;
+}
+.c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.j1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+    justify-content: flex-start;
+}
+
+.j2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+    justify-content: flex-end;
+}
+
+.j3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.j4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.j5{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+.pj1{
+    position: absolute;
+    left: 46%;
+    top: 80%;
+}
+
+.pj2{
+    position: absolute;
+    left: 46%;
+    top: 80%;
+}
+
+.pj3{
+    position: absolute;
+    left: 46.5%;
+    top: 80%;
+}
+
+.pj4{
+    position: absolute;
+    left: 43%;
+    top: 80%;
+}
+
+.pj5{
+    position: absolute;
+    left: 43.5%;
     top: 80%;
 }

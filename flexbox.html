@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="flexbox.css" />
   </head>
   <body>
     <header>
@@ -21,6 +22,49 @@
             <p>
                 Vamos ver as principais propriedades do Flexbox:
             </p>
+            <ul>
+                <li><code>flex-direction</code> - Define a direção dos itens (linha ou coluna);</li>
+                <li><code>justify-content</code> - Alinha os itens horizontalmente;</li>
+                <li><code>align-items</code> - Alinha os itens verticalmente;</li>
+                <li><code>flex-wrap</code> - Permite que os itens quebrem para a próxima linha;</li>
+                <li><code>align-content</code> - Alinha linhas de itens quando há espaço extra.</li>
+            </ul>
+        </section>
+
+        <section>
+
+            <h2>1. Define a direção do eixo - <code>flex-direction</code></h2>
+            <p>define o eixo principal e a direção em que os itens flexíveis são dispostos dentro de um contêiner flexível.</p>
+            <div class="container">
+            <div class="demo d1">
+            <div class="box ">1</div>
+            <div class="box ">2</div>
+            <div class="box ">3</div>
+            <div class="box ">4</div>
+            <p class="p1">row</p>
+             </div>
+             <div class="demo d2">
+            <div class="box ">1</div>
+            <div class="box ">2</div>
+            <div class="box ">3</div>
+            <div class="box ">4</div>
+            <p class="p2">column</p>
+             </div>
+             <div class="demo d3">
+            <div class="box ">1</div>
+            <div class="box ">2</div>
+            <div class="box ">3</div>
+            <div class="box ">4</div>
+            <p class="p3">row-reverse</p>
+             </div>
+             <div class="demo d4">
+            <div class="box ">1</div>
+            <div class="box ">2</div>
+            <div class="box ">3</div>
+            <div class="box ">4</div>
+            <p class="p4">column-reverse</p>
+             </div>
+            </div>
         </section>
     </main>
   </body>
